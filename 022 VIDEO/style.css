@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-overflow: hidden;
+}
+.div1{
+    width: 80vw;
+    margin: auto;
+    background-color: yellow;
+    height: 100vh;
+}
+.div2{
+    font-size: 2em;
+}
+.div3{
+    font-size: 2rem;
+}
+.div4{
+    width: 100vmin;
+}
