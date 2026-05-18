@@ -1,0 +1,18 @@
+h1{
+    color: aqua;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+#h3{
+    color: brown;
+}
+[data-x=a]{
+color: blueviolet;
+}

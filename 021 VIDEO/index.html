@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Specificity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 class="red blue green">Css Specificity</h1>
+    </div>
+    <!-- inline style has more specificty than class -->
+     <h2 style="color: blue;" class="green">heading 2</h2>
+     <!-- inline style has more specificty than id -->
+     <h3 style="color: yellow;" id="h3">heading 3</h3>
+     <!-- attribute selector -->
+      <h4 data-x="a">heading 4</h4>
+      <!-- !important has more specificty than inline style -->
+        <h5 style="color: red !important;" class="blue">heading 5</h5>
+</body>
+</html>
