@@ -1,0 +1,46 @@
+
+:root{
+    --fontColor:white;
+    --firbackGroundColor:black;
+    --secBackgroundColor:darkblue;
+    --thiBackgroundColor:brown;
+    --fourBackgroundColor:brown;
+    --fifBackgroundColor:red;
+    --Padding:15px;
+    --border:3px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: var(--firbackGroundColor);
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style-type: none;
+    color: var(--fontColor);
+    padding: var(--Padding);
+}
+ul li:nth-child(4){
+    background-color: var(--fifBackgroundColor);
+    border-radius: var(--border);
+}
+ul li:nth-child(3){
+    background-color: var(--secBackgroundColor);
+    border-radius: var(--border);
+}
+
+ul li:nth-child(2){
+    background-color: var(--thiBackgroundColor);
+    border-radius: var(--border);
+}
+ul li:nth-child(1){
+    background-color: var(--fourBackgroundColor);
+    border-radius: var(--border);
+}
