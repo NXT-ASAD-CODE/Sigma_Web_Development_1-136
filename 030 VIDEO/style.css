@@ -1,0 +1,26 @@
+:root{
+    --color:blue;
+    --backgroundColour:orange;
+    --opacity:0.2;
+    --defPadding:24px;
+
+}
+
+
+
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+li{
+    color: var(--color);
+    background-color: orange;
+}
+div{
+     background-color: var(--backgroundColour,blue /*if not found */);
+    color: var(--color);
+    padding: var(--defPadding);
+    opacity: var(--opacity);
+}
