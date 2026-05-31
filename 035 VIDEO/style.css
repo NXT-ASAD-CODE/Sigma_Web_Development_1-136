@@ -1,0 +1,24 @@
+.box:first-child{
+    background-color: red;
+}
+.box:first-child:first-line{
+    background-color:yellow;
+}
+.box:first-child:first-letter{
+    background-color:blue;
+}
+.boxes *{
+    border: 2px solid black;
+}
+.box:nth-child(1){
+background-color: blue;
+}
+.box:nth-child(odd){
+    background-color: yellow;
+}
+.boxes::before{
+    content: "i am happy";
+}
+.boxes::after{
+    content: "i am happy";
+}
