@@ -1,0 +1,15 @@
+img{
+    float: right;
+    /* float: left; */
+    /* clear: left; */
+    /* clear: right; */
+    /* clear: both; */
+}
+
+.cards{
+    border: 2px solid yellow;
+}
+.container{
+    border: 2px solid black;
+    display: flow-root;
+}
