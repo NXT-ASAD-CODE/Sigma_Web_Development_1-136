@@ -1,0 +1,35 @@
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+
+}
+.box1{
+ background-color: purple;
+ order: 1;
+}
+.box2{
+ background-color: blue;
+ order: 2;
+}
+.boxes{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    flex-flow: column nowrap;
+    gap: 10px;
+    flex-grow:  2;/*it will take double space than a single box*/
+    flex-shrink: 2; /* it will shrink in double speed as the screen will be small */
+
+    align-items: center;
+    height: 80vh;
+}
