@@ -1,0 +1,40 @@
+.container{
+border: 2px solid blue;
+display: grid;
+/* grid-template-columns: [pehla]300px [dosra]100px;
+grid-template-rows: 300px 300px; */
+grid-template-columns: 1fr 2fr 2fr 1fr;
+gap: 20px;
+justify-content: center;
+row-gap: 20px
+;
+/* grid-template-areas: "nav nav nav"
+                     "sidebar article article"
+                     "footer footer footer"; */
+
+}
+.item{
+border: 2px solid black;
+/* width: 200px; */
+height: 100px;
+
+}
+/* .item4{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    grid-area:sidebar ;
+} */
+/* .item1{
+    /* grid-column: pehla/dosra;
+    grid-row: 1/2; 
+    grid-area: nav;
+    } */
+/* .item2{
+    grid-area:article ;
+} */
+/* .item3{
+    grid-area: footer;
+} */
+/* .item5{
+    grid-area: footer;
+} */
