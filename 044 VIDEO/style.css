@@ -1,0 +1,34 @@
+.btn{
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-left:  20px;;
+}
+.green{
+    background-color: #5cb85c;
+}
+.item{
+    padding: 23px;
+    background-color: rgb(212, 201, 201);
+    border-radius: 12px;
+    display: inline-block;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 23px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px
+    ;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
