@@ -1,0 +1,22 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.container{
+background-color: blue;
+height: 40vh;
+width: 50vw;
+}
+.box{
+ background-color: white;
+ height: 4vh;
+ width: 5vw;
+ transition: all 3s ease-in-out 1s;
+}
+.translate{
+    transform: translateY(10vh) translateX(10vw) scale(2);
+    background-color: yellow;
+}
