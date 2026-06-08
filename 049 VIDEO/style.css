@@ -1,0 +1,18 @@
+.container{
+    height: 600px;
+    height: 600px;
+    border: 2px solid black;
+}
+img{
+    /* object-fit: contain; */
+    object-fit: cover;
+    /* object-position: top right; */
+    /* object-fit: fill; */
+    /* object-fit: scale-down; */
+    /* object-position: 10px 50px; */
+    /* background-image: url(CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.webp); */
+    height: 600px;
+    height: 600px;
+    background-repeat: repeat;
+    background-position: center center;
+}
