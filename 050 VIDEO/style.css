@@ -1,0 +1,8 @@
+.container img{
+    /* filter: blur(5px); */
+    /* filter: brightness(12) contrast(2); */
+    /* filter: grayscale(12); */
+    /* filter: sepia(1); */
+    /* filter: invert(1); */
+    filter: opacity(7);
+}
