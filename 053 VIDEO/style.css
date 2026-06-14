@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    z-index: -2;
+    background-image: url(./Images/netflix_opacity_80.png);
+    opacity: 0.99;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 150px;
+    height: 80px;
+    align-items: center;
+    /* background-color: white; */
+    /* margin-top: 20px; */
+
+
+}
+
+.nav-button a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(229, 9, 20);
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.opacity {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.80;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+.default-ltr-iqcdef-cache-17hp4kx {
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    width: 148px;
+}
+
+.landing-page-text .main-text h1 {
+    color: white;
+    /* position: fixed; */
+
+
+
+}
+
+.landing-page-text {
+    font-size: 27px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+
+}
+
+.landing-page-text .main-text .fir {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.landing-page-text .main-text .P {
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.landing-page-text .main-text a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(229, 9, 20);
+    padding: 15px 25px;
+    border-radius: 5px;
+    /* margin-top: 100px; */
+}
+
+.landing-page-text .main-text input {
+    width: 366px;
+    height: 56px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    margin-right: 10px;
+    background: transparent;
+    /* width: 100%;  */
+}
+
+.input-field-with-button input:focus {
+    border: 2px solid rgba(128, 128, 128, 0.4);
+}
+
+.input-field-with-button input::placeholder {
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    ;
+}
+
+.input-field-with-button input {
+    color: white;
+    font-size: 16px;
+}
+
+.input-field-with-button input:disabled {
+    color: white;
+    font-size: 16px;
+}
+
+.input-button {
+    margin-top: 13px;
+}
+
+.input-field-with-button {
+    display: flex;
+    justify-self: center;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.trending-page {
+    height: 170vh;
+    background: black;
+}
+
+.trending-page .trending-text h2 {
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    align-content: center;
+    /* margin-top: 10px; */
+    height: 20vh;
+}
+
+.trending-images {
+    /* margin: 50px; */
+    justify-content: center;
+    gap:50px;
+    z-index: -1;
+}
+
+.trending-images img {
+    border-radius: 10px;
+}
+
+.textstyle {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    text-shadow: rgb(65, 65, 65);
+    font-size: 100px;
+    margin-top: -100px;
+    margin-left: 0px;
+    font-weight: 700;
+}
+
+.more-reasons-text {
+    color: rgb(255, 255, 255);
+    margin-top: 80px;   
+    margin-left: 150px;
+}
+
+.reason1 , .reason2 , .reason3 , .reason4 {
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    backdrop-filter: blur(30px);
+    width: 230px;
+    height: 329px;
+    border-radius: 15px;
+}
+.reason1 h2 , .reason2 h2 , .reason3 h2 , .reason4 h2{
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    margin-left: 15px;
+    padding-top: 30px;
+}
+.reason1 p ,.reason2 p ,.reason3 p ,.reason4 p{
+  color:  rgba(255, 255, 255, 0.7);
+  /* text-align: center; */
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.reason1-img svg , .reason2-img svg , .reason3-img svg , .reason4-img svg{
+    /* margin-top: 100px;
+    margin-left: 150px; */
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+
+}
+.more-reasons-to-join{
+    justify-content: center;
+    gap:20px ;
+    margin-top: 20px;
+}
