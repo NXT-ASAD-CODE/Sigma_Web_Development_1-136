@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Removing Elements using JavaScript</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="box">I am a box</div>
+        <div class="box" data-createdby="Asad">I am a box</div>
         <div class="box1">I am a box</div>
+        <script>
+            let div = document.createElement("div");
+            div.innerHTML = "this statement is form JavaScript author <b>Asad</b>"
+            div.setAttribute("class", "created");
+            document.querySelector(".container").append(div);
+            let cont = document.querySelector(".box"); 
+            cont.insertAdjacentHTML("afterbegin", "<b>hello</b>")
+        </script>
     </div>
+
     <script src="./index.js"></script>
 </body>
+
 </html>
