@@ -1,21 +1,12 @@
-let a = document.getElementsByClassName('box')
-let b = Array.from(a)
-b.forEach(e=>{
-    let random = Math.random()
-    if(random>0.9){
-        e.style.backgroundColor = "red"
-    }
-    if(random>0.8 && random < 0.9){
-        e.style.backgroundColor = "yellow"
-    }
-    if(random>0.6 && random < 0.8){
-        e.style.backgroundColor = "blue"
-    }
-    if(random>0.4 && random < 0.6){
-        e.style.backgroundColor = "greem"
-    }
-    if(random>0.2 && random < 0.4){
-        e.style.backgroundColor = "orange"
-    }
+let a = document.querySelector(".container").children 
+function getRandomColor(){
+    let value1 = Math.ceil(0 + Math.random() * 255) 
+    let value2 = Math.ceil(0 + Math.random() * 255)
+    let value3 = Math.ceil(0 + Math.random() * 255)
+    return `rgb(${value1} , ${value2} , ${value3})`
+}
+Array.from(a).forEach(e=>{
+e.style.backgroundColor = getRandomColor()
+e.style.color = getRandomColor()
 
 })
