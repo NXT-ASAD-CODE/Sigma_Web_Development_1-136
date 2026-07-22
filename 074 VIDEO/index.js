@@ -9,6 +9,6 @@ let btn = document.getElementById("change")
 //     document.querySelector(".box").innerText = "I am changed suii"
 // })
 btn.addEventListener("keydown",(e)=>{
-    console.log(e);
+    console.log(e.key);
     
 })
