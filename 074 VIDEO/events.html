@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evenst</title>
+    <style>
+    .child{
+        background-color:yellow;
+        border: 2px solid black;
+        padding: 34px;
+        margin:34px;
+
+
+    } 
+    .childContainer{
+        background-color: black;
+        padding: 40px;
+    }   
+    .container{
+        background-color: red;
+        padding: 50px;
+    }
+    </style>
 </head>
 <body>
     <div class="container">
-        <span class="childContainer">
+        <section class="childContainer">
             <div class="child">child box</div>
-        </span>
+        </section>
     </div>
     <script>
-        document.querySelector(".child").addEventListener("contextmenu",()=>{
-            alert("我 不 会 中文")
+        document.querySelector(".child").addEventListener("click",()=>{
+            alert("child 我 不 会 中文")
             
-        })   </script>
+        })   
+        document.querySelector(".childContainer").addEventListener("click",()=>{
+            alert("child container 你 在 干 吗")
+            
+        })   
+        document.querySelector(".container").addEventListener("click",()=>{
+            alert("container 真 的 吗")
+            
+        })   
+        </script>
 </body>
 </html>
