@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="./index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 14</title>
+    <style>
+      .container {
+        width: 60vw;
+        height: 50vh;
+        background-color: green;
+        color: white;
+      }
+
+      .loading span {
+        width: 5px;
+        height: 5px;
+        margin: 0 5px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        animation: loading 1s infinite ease-in-out;
+      }
+
+      .loading span:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+
+      @keyframes loading {
+        50% {
+          opacity: 0;
+          transform: scale(0.3) translateY(5px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
